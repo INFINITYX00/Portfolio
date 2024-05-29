@@ -123,7 +123,7 @@ export const companies = [
   {
     id: 1,
     name: "School of Code",
-    img: "/school_of_code_logo.jpeg",
+    img: "/socimg.png",
     nameImg: "soc2.png",
   },
   {
