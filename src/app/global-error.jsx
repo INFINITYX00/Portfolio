@@ -1,7 +1,7 @@
 "use client";
 
 import * as Sentry from "@sentry/nextjs";
-import Error from "next/error";
+import { ErrorBoundary } from "@sentry/nextjs";
 import { useEffect, useRef } from "react";
 
 export default function GlobalError({ error }) {
@@ -15,10 +15,10 @@ export default function GlobalError({ error }) {
   }, [errorRef]);
 
   return (
-    <html>
-      <body>
-        <Error />
-      </body>
-    </html>
+    <ErrorBoundary fallback={"An error has occurred"}>
+      <html>
+        <body>{/* Your content here */}</body>
+      </html>
+    </ErrorBoundary>
   );
 }
