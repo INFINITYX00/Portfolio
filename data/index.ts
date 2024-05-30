@@ -137,31 +137,24 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Full Stack Development - School of Code",
+    desc: "Undertook a full-time intensive 16-week course focused on full-stack development. During this immersive experience, I learned technologies such as React, Next.js, Node.js, Express, AWS, and Docker.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Front End Development Project - Eslando",
+    desc: "Designed and developed mobile Digital Product Passport for use in the fashion industry, made using Next.js.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Full Stack Development Project - NexID",
+    desc: "Designing and developing a Digital Product Passport for use in the tools and hardware industry, made using Next.js.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 
