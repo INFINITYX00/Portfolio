@@ -150,11 +150,11 @@ export const workExperience = [
     thumbnail: "/exp2.svg",
   },
   {
-    id: 2,
+    id: 3,
     title: "Full Stack Development Project - NexID",
     desc: "Designing and developing a Digital Product Passport for use in the tools and hardware industry, made using Next.js.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp3.svg",
   },
 ];
 
