@@ -10,14 +10,22 @@ const Approach = () => {
       <h1 className="heading">
         Project <span className="text-purple">Approach</span>
       </h1>
-      <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black w-full gap-4 mx-auto px-8">
-        <Card title="Sheetal is Nisha" icon={<AceternityIcon />}>
+      <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
+        <Card
+          title="Planning & Conceptualisation"
+          icon={<AceternityIcon title="Phase 1" />}
+          description="I initiate projects by gathering user requirements, conducting research and designing the applications architecture and user experience. Using Github Projects I organise tasks into boards, plan sprints and track progress, ensuring a streamlined approach to development"
+        >
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="Nisha is Munni" icon={<AceternityIcon />}>
+        <Card
+          title="Development"
+          icon={<AceternityIcon title="Phase 2" />}
+          description="I bring projects to life by crafting responsive front-end interfaces and handling back-end logic and databases. I manage code reviews, collaborate with team members and ensure smooth integration of features"
+        >
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-black"
@@ -30,7 +38,11 @@ const Approach = () => {
           {/* Radial gradient for the cute fade */}
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
-        <Card title="Munni is Aditi" icon={<AceternityIcon />}>
+        <Card
+          title="Deployment"
+          icon={<AceternityIcon title="Phase 3" />}
+          description="I deploy projects using CI/CD pipelines for a seamless launch. I monitor performance and make improvements based on user feedback."
+        >
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
@@ -46,10 +58,12 @@ const Card = ({
   title,
   icon,
   children,
+  description,
 }: {
   title: string;
   icon: React.ReactNode;
   children?: React.ReactNode;
+  description: string;
 }) => {
   const [hovered, setHovered] = React.useState(false);
   return (
@@ -82,30 +96,23 @@ const Card = ({
         <h2 className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
           {title}
         </h2>
+        <h2 className="dark:text-white text-sm opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200"></h2>
+        {description}
       </div>
     </div>
   );
 };
 
-const AceternityIcon = () => {
+const AceternityIcon = ({ title }: { title: string }) => {
   return (
-    <svg
-      width="66"
-      height="65"
-      viewBox="0 0 66 65"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="h-10 w-10 text-black dark:text-white group-hover/canvas-card:text-white "
-    >
-      <path
-        d="M8 8.05571C8 8.05571 54.9009 18.1782 57.8687 30.062C60.8365 41.9458 9.05432 57.4696 9.05432 57.4696"
-        stroke="currentColor"
-        strokeWidth="15"
-        strokeMiterlimit="3.86874"
-        strokeLinecap="round"
-        style={{ mixBlendMode: "darken" }}
-      />
-    </svg>
+    <div>
+      <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+        <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+        <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+          {title}
+        </span>
+      </button>
+    </div>
   );
 };
 
