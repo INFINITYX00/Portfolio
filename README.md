@@ -22,9 +22,12 @@
 
 Here are screenshots of my Portfolio page.
 <br>
+Mobile view
+<br>
 ![Stephen-s-Portfolio2](https://github.com/INFINITYX00/Portfolio/assets/145766101/4e79b1cd-cfc2-4e17-89b3-fa2d18deaa8b)
 <br>
-
+Desktop view
+<br>
 ![Stephen-s-Portfolio](https://github.com/INFINITYX00/Portfolio/assets/145766101/3599a89d-77a8-4d2e-85ca-8bfbfdc23054)
 
 
