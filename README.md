@@ -1,10 +1,10 @@
 # Relabel Digital Product Passport
 
-![GitHub last commit](https://img.shields.io/github/last-commit/INFINITYX00/eslando)
-![GitHub contributors](https://img.shields.io/github/contributors/INFINITYX00/eslando)
-![GitHub issues](https://img.shields.io/github/issues/INFINITYX00/eslando)
-![GitHub forks](https://img.shields.io/github/forks/INFINITYX00/eslando)
-![GitHub stars](https://img.shields.io/github/stars/INFINITYX00/eslando)
+![GitHub last commit](https://img.shields.io/github/last-commit/INFINITYX00/Portfolio)
+![GitHub contributors](https://img.shields.io/github/contributors/INFINITYX00/Portfolio)
+![GitHub issues](https://img.shields.io/github/issues/INFINITYX00/Portfolio)
+![GitHub forks](https://img.shields.io/github/forks/INFINITYX00/Portfolio)
+![GitHub stars](https://img.shields.io/github/stars/INFINITYX00/Portfolio)
 
 
 
