@@ -21,6 +21,7 @@
 ## Screenshots
 
 Here are screenshots of my Portfolio page.
+![Stephen-s-Portfolio](https://github.com/INFINITYX00/Portfolio/assets/145766101/3599a89d-77a8-4d2e-85ca-8bfbfdc23054)
 
 
 
