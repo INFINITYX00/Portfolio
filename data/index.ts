@@ -124,13 +124,13 @@ export const companies = [
     id: 1,
     name: "School of Code",
     img: "/socimg.png",
-    nameImg: "soc2.png",
+    nameImg: "soc2.svg",
   },
   {
     id: 2,
     name: "Eslando",
     img: "/eslando_logo.jpeg",
-    nameImg: "Eslando-white.png",
+    nameImg: "Eslando-white.svg",
   },
 ];
 
