@@ -20,7 +20,8 @@
 
 ## Screenshots
 
-Here are screenshots of my Portfolio page.
+## Here are screenshots of my Portfolio page.
+<br>
 <br>
 Mobile view
 <br>
